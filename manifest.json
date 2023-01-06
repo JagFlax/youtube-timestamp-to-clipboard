@@ -1,0 +1,19 @@
+{
+  "name": "YouTube Timestamp to Clipboard",
+  "version": "1.0",
+  "description": "Copy the current YouTube video timestamp to your clipboard using a hotkey.",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {},
+  "commands": {
+    "savestamp": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+S"
+      },
+      "description": "Copies current YouTube video timestamp to clipboard."
+    }
+  },
+  "permissions": ["activeTab", "scripting"]
+}
