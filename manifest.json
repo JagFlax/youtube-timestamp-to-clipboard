@@ -10,7 +10,7 @@
   "commands": {
     "savestamp": {
       "suggested_key": {
-        "default": "Ctrl+Shift+X"
+        "default": "Alt+S"
       },
       "description": "Copy current YouTube video timestamp to clipboard."
     }
